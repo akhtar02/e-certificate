@@ -1,0 +1,386 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Vollkorn&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.certificate{
+    /* height: 700px; */
+    margin: 20px 20px ;
+    border: 2px solid #000;
+    background-image: url('images/wave.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 5px 3px 3px #cf6a6a;
+    
+    
+}
+
+.box{
+    width: 260px;
+    height: 300px;
+    display: flex;
+    position: absolute;
+    /* top: 5px; */
+    top: 15%;
+    justify-content: center;
+    align-items: center;
+}
+
+.box img{
+    margin-top: 120px;
+    width: 240px;
+    height: 290px;
+   
+}
+.intro h1{
+    text-transform: uppercase;
+    font-size: 44px;
+    font-weight: 900;
+    padding: 5px 20px;
+    line-height: 30px;
+    letter-spacing: 2px;
+    margin-top: 30px;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
+    /* font-family: 'Vollkorn', serif; */
+    font-family: 'Poppins', sans-serif;
+}
+.intro h4{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 900;
+    padding: 5px 20px;
+    line-height: 30px;
+    letter-spacing: 2px;
+    color: #fff;
+    text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
+    /* font-family: 'Vollkorn', serif; */
+    font-family: 'Poppins', sans-serif;
+}
+
+.company h2{
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 34px;
+    text-shadow: 4px 4px 2px rgba(214, 198, 170, 1);
+    /* text-shadow: 4px 2px 1px rgba(150, 150, 150, 1); */
+    margin-right: 10px;
+    margin-top: 0;
+}
+.logo-img{
+    width: 150px;
+    height: 150px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+
+.intro-p p{
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 30px;
+    letter-spacing: 2px;
+    padding: 10px 0px;
+    text-align: center;
+    
+
+}
+
+.line-space{
+    border-top: 3px solid #000;
+    width: 500px;
+    display: block;
+    align-items: center;
+    margin: 30px 0px 10px 0px;
+}
+
+
+.verify p{
+    font-weight: bold;
+    color: #667ade;
+    line-height: 20px;
+    padding: 0;
+    margin: 0;
+
+}
+
+.courses {
+    margin-top:50px ;
+    padding: 5px 30px;
+}
+
+.course-line{
+    border-top: 3px solid #000;
+    width: 250px;
+    display: block;
+    align-items: center;
+    margin: 30px 0px 10px 10px;
+}
+.courses h4{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 5px 20px;
+}
+
+
+/* Media Query */
+
+
+
+@media screen and (max-width: 992px) {
+    /* .certificate {
+        background-color: yellow;
+    } */
+    .box{
+        width: 180px;
+        height: 230px;
+        display: flex;
+        position: absolute;
+        top: 20%;
+        justify-content: center;
+        align-items: center;
+    }
+    .box img{
+        margin-top: 100px;
+        width: 150px;
+        height: 210px;
+       
+    }
+    .logo-img{
+        width: 150px;
+        height: 150px;
+        margin-top: 20px;
+    }
+
+    .course-line{
+        border-top: 3px solid #000;
+        width: 180px;
+        display: block;
+        align-items: center;
+        margin: 30px 0px 10px 10px;
+    }
+
+ }
+
+ @media screen and (max-width:  768px) {
+     /* .certificate{
+         background-color: blue;
+     } */
+
+     .box{
+        width: 180px;
+        height: 230px;
+        display: flex;
+        position: absolute;
+        top: 20%;
+        
+    }
+
+    .line-space{
+       
+        width: 280px;
+        
+    }
+    
+    
+    .box img{
+        margin-top: 100px;
+        width: 150px;
+        height: 210px;
+       
+    }
+
+
+    .company h2{
+        text-align: center;
+        font-size: 26px;
+    } 
+    .logo-img{
+        /* margin-right: 120px !important; */
+        display: block;
+        margin: 170px auto 20px auto;
+        
+    }
+    .intro h1{
+        font-size: 34px;
+        font-weight: bold;
+        
+    }
+    .intro h4{
+        font-size: 14px;
+        font-weight: 600;
+    }
+    .intro-p p{
+        text-transform: uppercase;
+        font-size: 12px;
+        font-weight: bold;
+        line-height: 20px;
+        text-align: center;
+    }
+
+    .courses {
+        margin-top:25px ;
+        
+    }
+    
+    .courses h4{
+        text-align: center;
+        font-weight: bold;
+        font-size: 15px;
+    }
+
+    .course-line{
+        border-top: 3px solid #000;
+        width: 160px;
+        display: block;
+        align-items: center;
+        margin: 30px 0px 10px 10px;
+    }
+
+    .verify p{
+        font-size: 12;
+    }
+
+    .intro h1{
+        font-size: 38px;
+        font-weight: bold;
+        
+    }
+    .intro h4{
+        font-size: 18px;
+        font-weight: 600;
+
+    
+    }
+    .intro-p p{
+        text-transform: uppercase;
+        font-size: 15px;
+        font-weight: bold;
+        line-height: 20px;
+        text-align: center;
+       
+    
+    }
+    .verify p{
+        font-size: 15;
+        font-weight: bold;
+        
+    
+    }
+
+    .courses {
+        margin-top:30px ;
+       
+    }
+    
+    .courses h4{
+        text-align: center;
+        font-weight: bold;
+        font-size: 15px;
+        margin-bottom: 30px;
+    }
+    
+    
+  }
+  
+
+  @media screen and (max-width:  500px) {
+    .box{
+        width: 180px;
+        height: 200px;
+        display: flex;
+        position: absolute;
+        top: 10%;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+    }
+
+    .line-space{
+       
+        width: 280px;
+        
+    }
+    
+    .box img{
+        margin-top: 200px;
+        width: 130px;
+        height: 150px;
+       
+    }
+
+    .badge  {
+
+height:20px;
+
+    }
+
+    .company{
+        margin-top: 160px;
+        padding-top: 20px;
+    }
+    .company h2{
+        text-align: center;
+        font-size: 26px;
+        margin-top: 5px;
+    }
+    .logo-img{
+        /* margin-right: 120px !important; */
+        display: block;
+        margin: 160px auto 5px auto;
+        
+    }
+    .intro h1{
+        font-size: 34px;
+        font-weight: bold;
+        
+    }
+    .intro h4{
+        font-size: 14px;
+        font-weight: 600;
+
+    
+    }
+    .intro-p p{
+        text-transform: uppercase;
+        font-size: 12px;
+        font-weight: bold;
+        line-height: 20px;
+        text-align: center;
+       
+    
+    }
+
+    .courses {
+        margin-top:25px ;
+        border-top: 2px solid #000;
+    }
+    
+    .courses h4{
+        text-align: center;
+        font-weight: bold;
+        font-size: 15px;
+    }
+
+    .course-line{
+        border-top: 3px solid #000;
+        width: 100px;
+        display: block;
+        align-items: center;
+        margin: 30px 0px 10px 10px;
+    }
+
+    .verify p{
+        font-size: 12;
+    }
+
+ 
+  }
